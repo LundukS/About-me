@@ -41,3 +41,8 @@ These are some tools that are required to publish a repo with GitHub pages.
 
 ## Contributor
 [Lunduk C Sherpa](https://github.com/LundukS)
+Degree: Applied Computer Science
+
+![Tri Devi](https://upload.wikimedia.org/wikipedia/commons/e/ef/Brahma%2C_Vishnu_and_Shiva_seated_on_lotuses_with_their_consorts%2C_ca1770.jpg)
+
+(*Source:* [Wikepedia](https://en.wikipedia.org/wiki/Tridevi))
