@@ -9,10 +9,10 @@ This repository will be about the tools and resources that I plan to use for my 
 
 ## Recommended tools
 These are some tools that are required to publish a repo with GitHub pages.
->> [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
->> [GitHub Pages](https://pages.github.com/)
->> [Tortoise git](https://tortoisegit.org/)
->> [Visual Studio Code](https://code.visualstudio.com/)
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [GitHub Pages](https://pages.github.com/)
+- [Tortoise git](https://tortoisegit.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Useful Resources
 1. [W3Schools](https://www.w3schools.com/)
