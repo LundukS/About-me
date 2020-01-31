@@ -39,5 +39,5 @@ These are some tools that are required to publish a repo with GitHub pages.
 
 (*Source:* [R-Studio](https://rstudio.com/))
 
-## Contributors
+## Contributor
 [Lunduk C Sherpa](https://github.com/LundukS)
