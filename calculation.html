@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>P2</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="sherpa1.css">
+
+
+</head>
+
+<body>
+    <nav>
+        <header>
+            <img class=circle
+                src="https://avatars1.githubusercontent.com/u/59974861?s=400&u=efd6da96e88e7c19ff08e9d29e9e054bd7f325fc&v=4"
+                id="Meditation" alt="Mediation posture">
+            <h2 id="main_header" style="text-align: center;"> Lunduk's P2 Styled Site </h2>
+            <hr>
+        </header>
+        <div class="mycontainer">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="calculation.html">Calculation</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </nav>
+    <hr>
+    <main>
+        <h1 class="center">Convert Degree Celsius to Fahrenheit</h1>
+        <form>
+            <label>Temperature(°C):</label>
+            <input type="number" id="degces">
+            <input type="button" onclick="fah()" value="Convert"><br>
+            <label id="fahs"></label>
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <p class="footer">This site was coded by Lunduk C Sherpa.</p>
+    </footer>
+    <script>
+        function fah() {
+            var degreeInCel = document.getElementById("degces").value;
+            document.getElementById("fahs").innerHTML = "<b>" + degreeInCel + "</b> " + " °C = " + "<b> " +((degreeInCel*9/5)+32) + " </b>" + " °F"
+        }
+    </script>
+</body>
+
+
+
+
+</html>
