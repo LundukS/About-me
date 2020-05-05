@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="sherpa1.css">
 
 
+
 </head>
 
 <body>
@@ -24,6 +25,7 @@
                     <li><a href="index.html">Home</a> </li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="calculation.html">Calculation</a></li>
+                    
                 </ul>
 
             </nav>
@@ -35,18 +37,27 @@
         <form>
             <label>Temperature(°C):</label>
             <input type="number" id="degces">
-            <input type="button" onclick="fah()" value="Convert"><br>
+            <input id= "conv" type="button" value="Convert">
+            &nbsp;  
+            <input id="del" type="button" value="Clear Storage">
+            <br>
             <label id="fahs"></label>
+            <p id = "counts"></p>
+            <br>
+            <label>Select a City:</label> 
+            <select id = "city">
+                <option value = "New York"> New York</option>
+                <option value = "Saint Louis"> Saint Louis</option>
+                <option value = "Kansas City"> Kansas City</option>
 
 
+            </select>
+            <input id="Temperature" type="button" value="Conv"><br>
 
-
+            
+            <br>
+            <p id="result"></p>
         </form>
-
-
-
-
-
 
 
 
@@ -54,15 +65,18 @@
     <footer>
         <p class="footer">This site was coded by Lunduk C Sherpa.</p>
     </footer>
-    <script>
-        function fah() {
-            var degreeInCel = document.getElementById("degces").value;
-            document.getElementById("fahs").innerHTML = "<b>" + degreeInCel + "</b> " + " °C = " + "<b> " +((degreeInCel*9/5)+32) + " </b>" + " °F"
-        }
-    </script>
+    <aside>
+        <b>Connect</b>
+        <br>
+        <div >
+        <a href="https://www.facebook.com" rel="noopener"><i class="fab fa-facebook fa-lg"></i> Facebook</a>
+        <a href="https://www.linkedin.com/in/lunduk-sherpa-6580b0194/"  rel="noopener"> <i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+        <a href="https://github.com/LundukS"  rel="noopener"><i class="fab fa-github fa-lg"></i> GitHub</a>
+        </div>
+    </aside>
+    
+    <script src = "calc.js"></script>
+    
 </body>
-
-
-
 
 </html>
